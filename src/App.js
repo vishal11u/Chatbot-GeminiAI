@@ -31,7 +31,7 @@ function App() {
       try {
         setLoading(true);
         const response = await axios.post(
-          'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCpOY4QldmxLWJwoUU7qD3FtnzRXgfKbHU',
+          'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=Your Api key',
           {
             "contents": [
               {
