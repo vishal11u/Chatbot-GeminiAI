@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# My Chrome Extension
+
+This is a Chrome extension built with React.
+
+## Setup
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npx webpack --config webpack.config.js` to build the extension.
+4. Go to `chrome://extensions/` in Chrome.
+5. Enable **Developer mode**.
+6. Click **Load unpacked** and select the `build` directory.
+
 ## Available Scripts
 
 In the project directory, you can run:
